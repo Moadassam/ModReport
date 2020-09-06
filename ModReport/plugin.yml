@@ -1,0 +1,24 @@
+name: ModReport
+version: 0.1
+main: Moadassam\ModReport\Main
+api: 3.0.0
+author: Moadassam (Cooldown by Clesucre)
+
+commands:
+  report:
+    description: Utilise cette commande pour report un joueur !
+
+  reporthelp:
+    description: Aide pour la commande /report
+
+
+permissions:
+  report.command:
+    description: "utiliser la commande /report"
+    default: op
+  reporthelp.command:
+    description: "Utiliser la commande /reporthelp"
+    default: op
+  report.see:
+    description: "Voir les reports"
+    default: op
